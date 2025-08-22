@@ -1,4 +1,11 @@
 /* Sponsors Page Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .sponsors-container {
   min-height: 100vh;
   position: relative;
@@ -6,12 +13,44 @@
   padding: 2vw;
 }
 
+/* .curtain-stage {
+  position: relative;
+  width: 100%;
+  max-width: 90vw;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #E8B4B8 0%, #D4969B  50%, #C8888E 100%);
+  border-radius: 0 0 3vw 3vw;
+  overflow: hidden;
+}
+
+.curtain-top {
+  height: 8vw;
+  background: #B8777D;
+  position: relative;
+} */
+
+/* .curtain-scallops {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4vw;
+  background: radial-gradient(circle at 6.25vw 0, transparent 3vw, #B8777D 3vw);
+  background-size: 12.5vw 4vw;
+} */
+
+.stage-content {
+  background-color: #FFEED6;
+  padding: 4vw;
+  min-height: 50vw;
+  position: relative;
+}
 
 .sponsors-title {
-  font-size: 4vw;
+  font-size: 3.4vw;
   font-weight: bold;
-  color: #4A4A4A;
-  text-align: center;
+  color: #412200;;
+  text-align: left;
   margin-bottom: 4vw;
   font-family: 'Arial Black', Arial, sans-serif;
 }
@@ -37,6 +76,16 @@
 }
 
 /* Decorative Elements */
+.curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  
+  z-index: 10;
+}
+
 .girl-megaphone {
   position: absolute;
   top: 15vw;
@@ -49,12 +98,19 @@
 .girl-gears {
   position: absolute;
   bottom: -2vw;
-  left: 15vw;
+  left: 22vw;
   width: 10vw;
   height: auto;
   z-index: 10;
 }
-
+.girl-bulb {
+  position: absolute;
+  bottom: -2vw;
+  left: 12vw;
+  width: 10vw;
+  height: auto;
+  z-index: 10;
+}
 .balloons-left {
   position: absolute;
   bottom: -1vw;
