@@ -1,7 +1,7 @@
 import React from 'react';
 import './SponsorsPage.css';
 
-const SponsorsPage: React.FC = () => {
+const SponsorsPage = () => {
   return (
     <div className="sponsors-container">
       <div className="curtain-stage">
