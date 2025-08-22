@@ -1,4 +1,5 @@
 import React from 'react';
+import './SponsorsPage.css';
 
 const SponsorsPage: React.FC = () => {
   return (
