@@ -1,0 +1,42 @@
+/* Curtain Component Styles */
+.curtain-stage {
+  position: relative;
+  width: 100%;
+  max-width: 90vw;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 50%, #991B1B 100%);
+  border-radius: 0 0 3vw 3vw;
+  overflow: hidden;
+}
+
+.curtain-top {
+  height: 8vw;
+  background: #DC2626;
+  position: relative;
+}
+
+.curtain-scallops {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4vw;
+  background: radial-gradient(circle at 6.25vw 0, transparent 3vw, #DC2626 3vw);
+  background-size: 12.5vw 4vw;
+}
+
+.stage-content {
+  background-color: #FFEED6;
+  padding: 4vw;
+  min-height: 50vw;
+  position: relative;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .curtain-scallops {
+    height: 6vw;
+    background: radial-gradient(circle at 8vw 0, transparent 4vw, #DC2626 4vw);
+    background-size: 16vw 6vw;
+  }
+}

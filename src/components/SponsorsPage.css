@@ -6,38 +6,6 @@
   padding: 2vw;
 }
 
-.curtain-stage {
-  position: relative;
-  width: 100%;
-  max-width: 90vw;
-  margin: 0 auto;
-  background: linear-gradient(135deg, #E8B4B8 0%, #D4969B  50%, #C8888E 100%);
-  border-radius: 0 0 3vw 3vw;
-  overflow: hidden;
-}
-
-.curtain-top {
-  height: 8vw;
-  background: #B8777D;
-  position: relative;
-}
-
-.curtain-scallops {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 4vw;
-  background: radial-gradient(circle at 6.25vw 0, transparent 3vw, #B8777D 3vw);
-  background-size: 12.5vw 4vw;
-}
-
-.stage-content {
-  background-color: #FFEED6;
-  padding: 4vw;
-  min-height: 50vw;
-  position: relative;
-}
 
 .sponsors-title {
   font-size: 4vw;
@@ -155,11 +123,6 @@
     width: 12vw;
   }
   
-  .curtain-scallops {
-    height: 6vw;
-    background: radial-gradient(circle at 8vw 0, transparent 4vw, #B8777D 4vw);
-    background-size: 16vw 6vw;
-  }
 }
 
 @media (max-width: 480px) {
