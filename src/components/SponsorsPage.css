@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile:wght@400;700&display=swap');
+
 /* Sponsors Page Styles */
 html, body, #root, .sponsors-container {
   height: 100%;
@@ -49,14 +51,14 @@ html, body, #root, .sponsors-container {
 
 .sponsors-title {
   position: relative;
-  font-size: 3.4vw;
+  font-size: 4vw;
   font-weight: bold;
-  color: #412200;;
+  color: #412200; 
   text-align: left;
-  z-index: 25;  
+  z-index: 30;  
   padding-left: 7vw;
   margin-bottom: 4vw;
-  font-family: 'Arial Black', Arial, sans-serif;
+  font-family: 'Nobile', Arial, sans-serif;
 }
 
 .sponsors-grid {
@@ -76,20 +78,32 @@ html, body, #root, .sponsors-container {
   box-shadow: 0 0.5vw 1vw rgba(0,0,0,0.1);
   border: 0.2vw solid #E0E0E0;
   flex: 1 1 20vw;
-  min-width: 18vw;
+  min-width: 20vw;
   max-width: 22vw;
+  font-family: 'Nobile', Arial, sans-serif;
 }
 
 .sponsor-card.large {
   flex: 2 1 44vw;
-  min-width: 38vw;
-  max-width: 48vw;
+  min-height: 20vh;
+  max-height: 25vh;
+  min-width: 25vw;
+  max-width: 30vw;
+  font-family: 'Nobile', Arial, sans-serif;
+}
+.sponsor-card.qlarge {
+  flex: 2 1 44vw;
+  min-height: 25vh;
+  min-width: 40vw;
+  max-width: 55vw;
+  font-family: 'Nobile', Arial, sans-serif;
 }
 
 .sponsor-card.xlarge {
   flex: 3 1 44vw;
-  min-width: 50vw;
+  min-width: 45vw;
   max-width: 60vw;
+  font-family: 'Nobile', Arial, sans-serif;
 }
 
 /* Decorative Elements */
@@ -97,42 +111,42 @@ html, body, #root, .sponsors-container {
   position: absolute;
   top: -4vh;
   left: -2.1vw;
-  height: 200vh;
+  height: 250vh;
   width: 100vw;
   /* z-index: 10; */
 }
 
 .girl-megaphone {
   position: absolute;
-  top: 15vw;
-  right: 8vw;
-  width: 12vw;
-  height: auto;
+  top: 40vw;
+  right: 0vw;
+  width: 30vw;
+  height: 45vh;
   z-index: 10;
 }
 
 .girl-gears {
   position: absolute;
-  bottom: -2vw;
-  left: 22vw;
-  width: 10vw;
-  height: auto;
+  bottom: -29vw;
+  left: 26vw;
+  width: 14vw;
+  height: 50vh;
   z-index: 10;
 }
 .girl-bulb {
   position: absolute;
-  bottom: -2vw;
-  left: 12vw;
-  width: 10vw;
-  height: auto;
+  bottom: -27vw;
+  left: 15vw;
+  width: 12vw;
+  height: 45vh;
   z-index: 10;
 }
 .balloons-left {
   position: absolute;
-  bottom: -1vw;
-  left: 2vw;
-  width: 8vw;
-  height: auto;
+  bottom: -15vw;
+  left: -8vw;
+  width: 25vw;
+  height: 35vh;
   z-index: 10;
 }
 

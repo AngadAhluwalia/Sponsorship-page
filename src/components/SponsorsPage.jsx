@@ -12,7 +12,7 @@ const SponsorsPage = () => {
         </div>
         
         <div className="stage-content">
-          <div style={{ height: '10vh' }}></div>
+          <div style={{ height: '20vh' }}></div>
           <div></div>
           <h1 className="sponsors-title">Last Years Sponsors</h1>
           
@@ -22,18 +22,18 @@ const SponsorsPage = () => {
             <div className="sponsor-card xlarge"></div>
             </div>
             <div>
-            <div className="sponsor-card large"></div>
+            <div className="sponsor-card qlarge"></div>
             </div>
             
             {/* Second row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
               
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
+            <div className="sponsor-card large"></div>
+            <div className="sponsor-card large"></div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
+            <div className="sponsor-card large"></div>
+            <div className="sponsor-card large"></div>
             </div>
             
             {/* Third row - 4 regular cards */}
@@ -64,24 +64,24 @@ const SponsorsPage = () => {
             className="curtain"
           />
           <img 
-            src="./images/megaphonegirl.png" 
+            src="./images/megaphonegirl.svg" 
             alt="Girl with megaphone" 
             className="girl-megaphone"
           />
           
           <img 
-            src="/images/geargirl.png" 
+            src="/images/geargirl.svg" 
             alt="Girl with gears" 
             className="girl-gears"
           />
           <img 
-            src="/images/bulbgirl.png" 
+            src="/images/bulbgirl.svg" 
             alt="Girl with gears" 
             className="girl-bulb"
           />
           
           <img 
-            src="/images/yellowballoons.png" 
+            src="/images/yellowballoon.svg" 
             alt="Balloons" 
             className="balloons-left"
           />
