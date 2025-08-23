@@ -2,6 +2,7 @@ import React from 'react';
 import './SponsorsPage.css';
 
 
+
 const SponsorsPage = () => {
   return (
     <div className="sponsors-container">
@@ -11,35 +12,54 @@ const SponsorsPage = () => {
         </div>
         
         <div className="stage-content">
+          <div style={{ height: '10vh' }}></div>
+          <div></div>
           <h1 className="sponsors-title">Last Years Sponsors</h1>
           
           <div className="sponsors-grid">
             {/* Top row - 2 large cards */}
+            <div>
+            <div className="sponsor-card xlarge"></div>
+            </div>
+            <div>
             <div className="sponsor-card large"></div>
-            <div className="sponsor-card large"></div>
+            </div>
             
             {/* Second row - 4 regular cards */}
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+              
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
+            </div>
             
             {/* Third row - 4 regular cards */}
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
+            </div>
             
             {/* Bottom row - 4 regular cards */}
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
+            </div>
+             {/* <div className="sponsor-card"></div>
+            <div className="sponsor-card"></div>
+            <div className="sponsor-card"></div>
+            <div className="sponsor-card"></div> */}
           </div>
           
           {/* Decorative Elements */}
           <img 
-            src="./images/curtains.png" 
+            src="./images/curtains 2 (1).png" 
             alt="curtain" 
             className="curtain"
           />
@@ -61,7 +81,7 @@ const SponsorsPage = () => {
           />
           
           <img 
-            src="/images/yellowballoon.png" 
+            src="/images/yellowballoons.png" 
             alt="Balloons" 
             className="balloons-left"
           />

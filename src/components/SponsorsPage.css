@@ -1,9 +1,10 @@
 /* Sponsors Page Styles */
-html, body {
-  margin: 0;
-  padding: 0;
+html, body, #root, .sponsors-container {
   height: 100%;
+  min-height: 100vh;
   width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .sponsors-container {
@@ -47,43 +48,58 @@ html, body {
 }
 
 .sponsors-title {
+  position: relative;
   font-size: 3.4vw;
   font-weight: bold;
   color: #412200;;
   text-align: left;
+  z-index: 25;  
+  padding-left: 7vw;
   margin-bottom: 4vw;
   font-family: 'Arial Black', Arial, sans-serif;
 }
 
 .sponsors-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2vw;
-  max-width: 70vw;
+  max-width: 90vw;
   margin: 0 auto;
 }
 
 .sponsor-card {
+  margin: 1vw;
   background: white;
   border-radius: 2vw;
   aspect-ratio: 2.5/1;
   box-shadow: 0 0.5vw 1vw rgba(0,0,0,0.1);
   border: 0.2vw solid #E0E0E0;
+  flex: 1 1 20vw;
+  min-width: 18vw;
+  max-width: 22vw;
 }
 
 .sponsor-card.large {
-  grid-column: span 2;
+  flex: 2 1 44vw;
+  min-width: 38vw;
+  max-width: 48vw;
+}
+
+.sponsor-card.xlarge {
+  flex: 3 1 44vw;
+  min-width: 50vw;
+  max-width: 60vw;
 }
 
 /* Decorative Elements */
 .curtain {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
+  top: -4vh;
+  left: -2.1vw;
+  height: 200vh;
   width: 100vw;
-  
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .girl-megaphone {
