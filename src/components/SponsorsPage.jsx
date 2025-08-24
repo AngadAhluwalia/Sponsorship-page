@@ -87,7 +87,7 @@ const SponsorsPage = () => {
           />
           
           <img 
-            src="/images/redballoon.png" 
+            src="/images/redballoon.svg" 
             alt="Balloons" 
             className="balloons-right"
           />

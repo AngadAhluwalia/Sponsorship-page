@@ -152,10 +152,10 @@ html, body, #root, .sponsors-container {
 
 .balloons-right {
   position: absolute;
-  bottom: -1vw;
-  right: 2vw;
-  width: 8vw;
-  height: auto;
+  bottom: -29vw;
+  right: -10vw;
+  width: 40vw;
+  height: 55vh;
   z-index: 10;
 }
 
