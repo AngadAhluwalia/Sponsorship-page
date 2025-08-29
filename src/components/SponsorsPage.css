@@ -224,3 +224,11 @@ html, body, #root, .sponsors-container {
     max-width: 90vw;
   }
 }
+.sponsor-card img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  display: block;
+  margin: 4% auto;
+  border-radius: 2vw;
+}

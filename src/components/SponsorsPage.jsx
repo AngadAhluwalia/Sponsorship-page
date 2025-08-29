@@ -1,7 +1,26 @@
 import React from 'react';
 import './SponsorsPage.css';
 
-
+import rbcImg from '../../sponsors/RBC.png';
+import standoutImg from '../../sponsors/StandOut-Stickers-Logo.png';
+import incogniImg from '../../sponsors/incogni.png';
+import nordpassImg from '../../sponsors/nordpass.png';
+import voiceflowImg from '../../sponsors/Voiceflow.svg';
+import sailyImg from '../../sponsors/saily-logo-black (2).png';
+import levelupImg from '../../sponsors/Levelup Logo (Square, Transparent).png';
+import codecraftersImg from '../../sponsors/CodeCrafters.io.png';
+import cseImg from '../../sponsors/CSE.jpg';
+import doraImg from '../../sponsors/dora logo- black.png';
+import environicsImg from '../../sponsors/EnvironicsAnalytics.png';
+import interviewCakeImg from '../../sponsors/Interview cake.png';
+import kpmImg from '../../sponsors/KPM.png';
+import msftReactorImg from '../../sponsors/MSFT_Reactor.png';
+import nordvpnImg from '../../sponsors/NordVPN_Logo_RGB_Primary_Blue_Black-01.svg';
+import notionImg from '../../sponsors/Notion.png';
+// import ubisoftImg from '../../sponsors/Ubisoft.eps'; // Commented out because .eps is not supported as a JS import
+import waspImg from '../../sponsors/wasp.png';
+import xyzImg from '../../sponsors/xyz-logo-color.svg';
+import zebraImg from '../../sponsors/ZEBRA.png';
 
 const SponsorsPage = () => {
   return (
@@ -22,7 +41,7 @@ const SponsorsPage = () => {
             <div className="sponsor-card xlarge"></div>
             </div>
             <div>
-            <div className="sponsor-card qlarge"></div>
+            <div className="sponsor-card qlarge"><img src={rbcImg} alt='Rbc img'/></div>
             </div>
             
             {/* Second row - 4 regular cards */}
@@ -38,16 +57,16 @@ const SponsorsPage = () => {
             
             {/* Third row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
+            <div className="sponsor-card"><img src={standoutImg} alt='standout stickers'/></div>
+            <div className="sponsor-card"><img src={incogniImg} alt='incogni png'/></div>
+            <div className="sponsor-card"><img src={nordpassImg} alt='nordpass'/></div>
+            <div className="sponsor-card"><img src={voiceflowImg} alt='voiceflow' /></div>
             </div>
             
             {/* Bottom row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
+            <div className="sponsor-card"><img src={sailyImg} alt='saily' /></div>
+            <div className="sponsor-card"><img src={levelupImg} alt='levelup' /> </div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             </div>
