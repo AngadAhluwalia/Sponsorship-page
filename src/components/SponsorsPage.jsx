@@ -47,8 +47,8 @@ const SponsorsPage = () => {
             {/* Second row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
               
-            <div className="sponsor-card large"></div>
-            <div className="sponsor-card large"></div>
+            <div className="sponsor-card large"><img src={environicsImg} alt='levelup' /></div>
+            <div className="sponsor-card large"><img src={cseImg} alt='levelup' /></div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
             <div className="sponsor-card large"></div>
@@ -67,13 +67,19 @@ const SponsorsPage = () => {
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
             <div className="sponsor-card"><img src={sailyImg} alt='saily' /></div>
             <div className="sponsor-card"><img src={levelupImg} alt='levelup' /> </div>
-            <div className="sponsor-card"></div>
-            <div className="sponsor-card"></div>
+            <div className="sponsor-card"><img src={xyzImg} alt='levelup' /></div>
+            <div className="sponsor-card"><img src={waspImg} alt='levelup' /></div>
             </div>
              {/* <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div> */}
+             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card"><img src={nordvpnImg} alt='saily' /></div>
+            <div className="sponsor-card"><img src={notionImg} alt='levelup' /> </div>
+            <div className="sponsor-card"><img src={zebraImg} alt='levelup' /></div>
+            <div className="sponsor-card"><img src={codecraftersImg} alt='levelup' /></div>
+            </div>
           </div>
           
           {/* Decorative Elements */}
