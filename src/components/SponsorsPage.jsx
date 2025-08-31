@@ -17,10 +17,24 @@ import kpmImg from '../../sponsors/KPM.png';
 import msftReactorImg from '../../sponsors/MSFT_Reactor.png';
 import nordvpnImg from '../../sponsors/NordVPN_Logo_RGB_Primary_Blue_Black-01.svg';
 import notionImg from '../../sponsors/Notion.png';
-// import ubisoftImg from '../../sponsors/Ubisoft.eps'; // Commented out because .eps is not supported as a JS import
+import ubisoftImg from '../../sponsors/Ubisoft.svg'; // Commented out because .eps is not supported as a JS import
 import waspImg from '../../sponsors/wasp.png';
 import xyzImg from '../../sponsors/xyz-logo-color.svg';
 import zebraImg from '../../sponsors/ZEBRA.png';
+import bestImg from '../../sponsors/BEST.png';
+import bramptonInnovationImg from '../../sponsors/Brampton_Innovation.png';
+import fgfImg from '../../sponsors/fgf.png';
+import icpImg from '../../sponsors/quantum.png';
+import pandgImg from '../../sponsors/P&G.png';
+import ranfoodsImg from '../../sponsors/ranfoods.png';
+import tdImg from '../../sponsors/TD.png';
+import yorkRegionImg from '../../sponsors/YorkRegion.png';
+import experienceVenturesImg from '../../sponsors/ExperienceVentures.png';
+import githubLogoImg from '../../sponsors/github-logo.png';
+import icpPngImg from '../../sponsors/icp.png';
+import siraPrintImg from '../../sponsors/SiraPrint.png';
+import vueschoolImg from '../../sponsors/vueschool.png';
+import yspaceImg from '../../sponsors/Yspace.png';
 
 const SponsorsPage = () => {
   return (
@@ -38,47 +52,78 @@ const SponsorsPage = () => {
           <div className="sponsors-grid">
             {/* Top row - 2 large cards */}
             <div>
-            <div className="sponsor-card xlarge"></div>
+              <div className="sponsor-card xlarge"><a href="#"><img src={tdImg} alt='Rbc img'/></a></div>
             </div>
             <div>
-            <div className="sponsor-card qlarge"><img src={rbcImg} alt='Rbc img'/></div>
+            <div className="sponsor-card qlarge"><a href="#"><img src={rbcImg} alt='Rbc img'/></a></div>
             </div>
             
             {/* Second row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
               
-            <div className="sponsor-card large"><img src={environicsImg} alt='levelup' /></div>
-            <div className="sponsor-card large"><img src={cseImg} alt='levelup' /></div>
+            <div className="sponsor-card large"><a href="#"><img src={environicsImg} alt='levelup' /></a></div>
+            <div className="sponsor-card large"><a href="#"><img src={cseImg} alt='levelup' /></a></div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card large"></div>
-            <div className="sponsor-card large"></div>
+            <div className="sponsor-card large"><a href="#"><img src={kpmImg} alt='kpm'/></a></div>
+            <div className="sponsor-card large"><a href="#"><img src={ubisoftImg} alt='ubisoft img'/></a></div>
             </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card large"><a href="#"><img src={yorkRegionImg} alt='standout stickers'/></a></div>
+            <div className="sponsor-card large"><a href="#"><img src={pandgImg} alt='standout stickers'/></a></div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card large"><a href="#"><img src={yspaceImg} alt='standout stickers'/></a></div>
+            <div className="sponsor-card large"><a href="#"><img src={experienceVenturesImg} alt='standout stickers'/></a></div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card large"><a href="#"><img src={icpImg} alt='standout stickers'/></a></div>
+            <div className="sponsor-card large"><a href="#"><img src={icpPngImg} alt='standout stickers'/></a></div>
+            </div>
+            
             
             {/* Third row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card"><img src={standoutImg} alt='standout stickers'/></div>
-            <div className="sponsor-card"><img src={incogniImg} alt='incogni png'/></div>
-            <div className="sponsor-card"><img src={nordpassImg} alt='nordpass'/></div>
-            <div className="sponsor-card"><img src={voiceflowImg} alt='voiceflow' /></div>
+            <div className="sponsor-card"><a href="#"><img src={standoutImg} alt='standout stickers'/></a></div>
+            <div className="sponsor-card"><a href="#"><img src={incogniImg} alt='incogni png'/></a></div>
+            <div className="sponsor-card"><a href="#"><img src={nordpassImg} alt='nordpass'/></a></div>
+            <div className="sponsor-card"><a href="#"><img src={voiceflowImg} alt='voiceflow' /></a></div>
             </div>
             
             {/* Bottom row - 4 regular cards */}
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card"><img src={sailyImg} alt='saily' /></div>
-            <div className="sponsor-card"><img src={levelupImg} alt='levelup' /> </div>
-            <div className="sponsor-card"><img src={xyzImg} alt='levelup' /></div>
-            <div className="sponsor-card"><img src={waspImg} alt='levelup' /></div>
+            <div className="sponsor-card"><a href="#"><img src={sailyImg} alt='saily' /></a></div>
+            <div className="sponsor-card"><a href="#"><img src={levelupImg} alt='levelup' /> </a></div>
+            <div className="sponsor-card"><a href="#"><img src={xyzImg} alt='levelup' /></a></div>
+            <div className="sponsor-card"><a href="#"><img src={waspImg} alt='levelup' /></a></div>
             </div>
              {/* <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div>
             <div className="sponsor-card"></div> */}
              <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-            <div className="sponsor-card"><img src={nordvpnImg} alt='saily' /></div>
-            <div className="sponsor-card"><img src={notionImg} alt='levelup' /> </div>
-            <div className="sponsor-card"><img src={zebraImg} alt='levelup' /></div>
-            <div className="sponsor-card"><img src={codecraftersImg} alt='levelup' /></div>
+            <div className="sponsor-card"><a href="#"><img src={nordvpnImg} alt='saily' /></a></div>
+            <div className="sponsor-card"><a href="#"><img src={notionImg} alt='levelup' /> </a></div>
+            <div className="sponsor-card"><a href="#"><img src={zebraImg} alt='levelup' /></a></div>
+            <div className="sponsor-card"><a href="#"><img src={codecraftersImg} alt='levelup' /></a></div>
+            </div>
+             <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card"><a href="#"><img src={msftReactorImg} alt='saily' /></a></div>
+            <div className="sponsor-card"><a href="#"><img src={doraImg} alt='levelup' /> </a></div>
+            <div className="sponsor-card"><a href="#"><img src={interviewCakeImg} alt='interview cake' /></a></div>
+            <div className="sponsor-card"><a href="#"><img src={incogniImg} alt='levelup' /></a></div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card"><a href="#"><img src={bramptonInnovationImg} alt='Rbc img'/></a></div>
+            <div className="sponsor-card"> <a href="#"><img src={ranfoodsImg} alt='Rbc img'/></a></div>
+            <div className="sponsor-card"><a href="#"><img src={fgfImg} alt='Rbc img'/></a></div>
+            <div className="sponsor-card"><a href="#"><img src={bestImg} alt='Rbc img'/></a></div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+            <div className="sponsor-card"><a href="https://github.com/"><img src={githubLogoImg} alt='Rbc img'/></a></div>
+            <div className="sponsor-card"> <a href="#"><img src={vueschoolImg} alt='Rbc img'/></a></div>
+            {/* <div className="sponsor-card"><img src={fgfImg} alt='Rbc img'/></div>
+            <div className="sponsor-card"><img src={bestImg} alt='Rbc img'/></div> */}
             </div>
           </div>
           

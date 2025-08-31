@@ -118,8 +118,8 @@ html, body, #root, .sponsors-container {
 
 .girl-megaphone {
   position: absolute;
-  top: 40vw;
-  right: 0vw;
+  top: 46vw;
+  right: -3vw;
   width: 30vw;
   height: 45vh;
   z-index: 10;
