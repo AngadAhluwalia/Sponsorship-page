@@ -76,11 +76,14 @@ html, body, #root, .sponsors-container {
   border-radius: 2vw;
   aspect-ratio: 2.5/1;
   box-shadow: 0 0.5vw 1vw rgba(0,0,0,0.1);
-  border: 0.2vw solid #E0E0E0;
+  border: 0.2vw solid #BD7777; /* Green outline */
   flex: 1 1 20vw;
   min-width: 20vw;
   max-width: 22vw;
   font-family: 'Nobile', Arial, sans-serif;
+  transition: transform 0.22s cubic-bezier(0.4, 0.2, 0.2, 1),
+    box-shadow 0.22s cubic-bezier(0.4, 0.2, 0.2, 1),
+    border-color 0.22s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 
 .sponsor-card.large {
@@ -89,12 +92,14 @@ html, body, #root, .sponsors-container {
   max-height: 25vh;
   min-width: 25vw;
   max-width: 30vw;
+  border: 0.2vw solid rgb(205, 127, 50); /* Darker green outline for large cards */
   font-family: 'Nobile', Arial, sans-serif;
 }
 .sponsor-card.qlarge {
   flex: 2 1 44vw;
   min-height: 25vh;
   min-width: 40vw;
+  border: 0.3vw solid silver;
   max-width: 55vw;
   font-family: 'Nobile', Arial, sans-serif;
 }
@@ -103,7 +108,23 @@ html, body, #root, .sponsors-container {
   flex: 3 1 44vw;
   min-width: 45vw;
   max-width: 60vw;
+  border: 0.4vw solid gold;
   font-family: 'Nobile', Arial, sans-serif;
+}
+
+.sponsor-card:hover, .sponsor-card:focus-visible {
+  transform: scale(1.07);
+  box-shadow: 0 2vw 4vw rgba(46,204,64,0.18), 0 1vw 2vw rgba(0,0,0,0.14);
+  border-color: #27ae60; /* Darker green on hover */
+  z-index: 3;
+}
+
+.sponsor-card.qlarge:hover, .sponsor-card.qlarge:focus-visible,
+.sponsor-card.xlarge:hover, .sponsor-card.xlarge:focus-visible {
+  transform: scale(1.07);
+  box-shadow: 0 2vw 4vw rgba(46,204,64,0.18), 0 1vw 2vw rgba(0,0,0,0.14);
+  border-color: #27ae60;
+  z-index: 3;
 }
 
 /* Decorative Elements */
@@ -232,3 +253,8 @@ html, body, #root, .sponsors-container {
   margin: 4% auto;
   border-radius: 2vw;
 }
+/* .sponsor-card :hover {
+  transform: scale(1.06);
+  box-shadow: 0 1vw 2vw rgba(0,0,0,0.18), 0 0.5vw 1vw rgba(0,0,0,0.12);
+  z-index: 2;
+} */
