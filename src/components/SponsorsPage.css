@@ -114,8 +114,8 @@ html, body, #root, .sponsors-container {
 
 .sponsor-card:hover, .sponsor-card:focus-visible {
   transform: scale(1.07);
-  box-shadow: 0 2vw 4vw rgba(46,204,64,0.18), 0 1vw 2vw rgba(0,0,0,0.14);
-  border-color: #27ae60; /* Darker green on hover */
+  box-shadow: 0 2vw 4vw rgba(204, 46, 204, 0.18), 0 1vw 2vw rgba(0,0,0,0.14);
+  border-color: #262254; /* Darker green on hover */
   z-index: 3;
 }
 
